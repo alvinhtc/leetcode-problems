@@ -4,6 +4,7 @@
 //You may assume that each input would have exactly one solution, and you may not use the same element twice.
 //
 //You can return the answer in any order.
+
 package twosum;
 
 import java.util.Arrays;
@@ -15,10 +16,7 @@ public class TwoSum {
         // Test 1
         int[] input1 = {2, 7, 11, 15};
         int expOutput1 = 9;
-        // Test 2
-//        int[] input2= {3,2,3};
-//        int expOutput2 = 6;
-        // Test
+        //
         int[] resultArr = sol.twoSum(input1, expOutput1);
         if(resultArr == null)
             System.out.println("Not found");
